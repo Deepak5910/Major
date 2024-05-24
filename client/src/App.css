@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  columns: white;
+  background-color: #505050;
+}
+
+.App {
+  text-align: center;
+  height: 150vh;
+  font-weight: 100;
+  word-spacing: 1px;
+  font-size: 20px;
+  line-height: 1.45em;
+  font-family: "Ubuntu", "Sharp Sans No1", Sans-serif;
+  /* background-image: linear-gradient(
+      to right bottom,
+      rgba(32, 32, 31, 0.98),
+      rgba(11, 17, 20, 0.98)
+    ),
+    url(./img/background4.jpeg);
+  background-size: cover;
+  background-position: top; */
+  color: white;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #4c9a8b;
+}
+
+.main-page {
+  padding-top: 20px;
+
+}
+
+.home-nav {
+  padding-left: 30px;
+  padding-right: 30px;
+ 
+}
+
+.sign-up {
+  padding-top: 50px;
+  font-size: 40px;
+  font-weight: 200;
+}
+
+.signup-form {
+  padding-top: 60px;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 800px;
+}
+
+.signin-onUp {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.home-page {
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-right: 30px;
+  font-weight: 500;
+  line-height: 1.5em;
+ 
+}
+
+.user-account {
+  display: flex;
+  justify-content: center;
+  width: 20%;
+  padding-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 400px;
+}
+
+.user-card {
+  margin-top: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.login-box {
+  width: 400px;
+  padding: 40px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgba(244, 236, 236, 0.879);
+}
+
+ .link-box{
+  border: 2px solid black;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  border-color: rgb(43, 44, 43);
+  background-color: #adb1b3;
+
+}
+
+
+
+
+/* Add more CSS as needed */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.file-box input{
+  width:300px;
+  margin:10px;
+  height: 25px;
+  border-radius: 5px;;
+}
+
+.patient-account {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size:16px;
+}
+
+.patient-icon-container {
+  width: 100px; /* Adjust as needed */
+  height: 100px; /* Adjust as needed */
+  align-items:center;
+  display: flex;
+  flex-direction: column;
+}
+
+.patient-icon {
+  width: 100%;
+  height: 100%;
+}
+
+.patient-details-box {
+  border: 3px solid rgb(227, 189, 217);
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 15px;
+  color:white;
+  width:500px;
+  height:300px;
+}
+
+.doc-box{
+  border: 3px solid rgb(227, 189, 217);
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 15px;
+  color:white;
+  width:1000px;
+  height:300px;
+}
+
+.file-box{
+  border: 2px solid rgb(227, 189, 217);
+  padding:10px;
+  border-radius: 8px;
+  
+  
+}
+.file-box button{
+  background-color: rgb(122, 213, 221);
+  width:100px;
+  height:40px;
+  border-radius: 10px;
+}
+.file-box button:hover {
+  background-color: #a700b3; 
+}
+.ipfs-hash-box{
+  margin: 20px;
+  padding:10px;
+}
+
+.ipfs-hash-box button{
+  background-color: rgb(122, 213, 221);
+  width:60px;
+  height:20px;
+  border-radius: 10px;
+}
+.ipfs-hash-box button:hover {
+  background-color: #a700b3; 
+}
+
+.ipfs-hash-box th{
+  margin: 80px;
+}
+
+.files-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.files-table th, .files-table td {
+  border: 1px solid #f59cea;
+  padding: 8px;
+}
+
+.files-table th {
+  text-align: left;
+}
+
+.files-table tr:nth-child(even) {
+  background-color: #f1a1f1;
+}
+
+.files-table tr:hover {
+  background-color: #65d6ea;
+}
+

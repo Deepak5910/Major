@@ -1,0 +1,95 @@
+/* LoginForm.css */
+
+.login-form {
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #74a9db;
+}
+
+.login-form h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  width: calc(100% - 20px);
+  padding: 8px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  border: 1px solid #02d5f1;
+  border-radius: 3px;
+}
+
+.login-form button {
+  width: calc(100% - 20px);
+  padding: 10px;
+  background-color: #007bff;
+  color: black;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
+
+
+/* RegistrationForm.css */
+
+.registration-form {
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.registration-form h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.registration-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="password"] {
+  width: calc(100% - 20px);
+  padding: 8px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.registration-form button {
+  width: calc(100% - 20px);
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.registration-form button:hover {
+  background-color: #0056b3;
+}
